@@ -5,3 +5,7 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // // [“Russia”, “Denmark”, “Kazan”] → []
 string[] array = {"Russia","Denmark","Kazan", "random words","important word"};
+string[] Newarray = new string[3];
+Newarray[0] = array[1];
+Newarray[1] = array[3];
+Newarray[2] = array[4];
