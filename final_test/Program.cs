@@ -9,3 +9,7 @@ string[] Newarray = new string[3];
 Newarray[0] = array[1];
 Newarray[1] = array[3];
 Newarray[2] = array[4];
+foreach(string i in Newarray)
+{
+    System.Console.Write(i+", ");
+}
